@@ -153,3 +153,7 @@ names(HFD.cohort.asfr.parity) <- c('country','cohort','age','asfr','asfr1','asfr
 # save the data
 save(HFD.period,HFD.cohort,TFR.period,MAB.period,SD.period,
      CCF.cohort,MAB.cohort,SD.cohort,HFD.cohort.birth.parity,HFD.cohort.asfr.parity,file="Data/HFD_Data.RData")
+
+load('Data/HFD_Data.RData')
+
+unique(HFD.cohort$country)
