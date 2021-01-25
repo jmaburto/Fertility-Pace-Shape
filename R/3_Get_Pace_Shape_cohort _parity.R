@@ -7,9 +7,6 @@ library(data.table)
 library(ggplot2)
 library(viridis)
 
-# set your working directory
-setwd("C:/Users/jmaburto.SAM/Documents/GitHub/Fertility-Pace-Shape")
-
 # load fertility data
 load('Data/HFD_Data.RData')
 
